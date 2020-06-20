@@ -1,0 +1,20 @@
+---
+nav:
+  - index.md
+  - Introduction:
+    - 01.Introduction/Empty-File.md
+    - 01.Introduction/Missing-Heading-1.md
+
+# Project Information
+site_name: "enumerate-headings-unit-test"
+
+# Theme
+theme:
+  name: material
+  features:
+    - tabs
+
+# Plugins
+plugins:
+  - search
+#  - enumerate-headings

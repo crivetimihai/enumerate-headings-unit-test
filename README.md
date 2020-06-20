@@ -10,7 +10,7 @@ python3 -m venv ${VENV_DIR}
 source ${VENV_DIR}/bin/activate
 pip install --upgrade pip setuptools wheel
 pip install -r requirements.txt
-mkdocs serve
+mkdocs serve -f mkdocs.yml
 ```
 
 mkdocs.yaml
@@ -18,6 +18,8 @@ mkdocs.yaml
 
 - uses [awesome-pages](https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin/) to generate `nav` from directory structure.
 - Headings are generated automatically from `File-Name.md` => "File Name".
+
+Also broken: `mkdocs serve -f mkdocs-nav.yml`
 
 Example error
 --------------
