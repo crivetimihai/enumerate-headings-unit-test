@@ -1,0 +1,15 @@
+mkdocs
+mkdocs-material
+mkdocs-material-extensions
+mkdocs-enumerate-headings-plugin
+mkdocs-git-revision-date-localized-plugin
+mkdocs-minify-plugin
+mkdocs-pdf-export-plugin
+mkdocs-mermaid-plugin
+mkdocs-git-authors-plugin
+mkdocs-awesome-pages-plugin
+mkdocs-table-reader-plugin
+pymdown-extensions
+markdown-blockdiag
+markdown-include
+pygments
