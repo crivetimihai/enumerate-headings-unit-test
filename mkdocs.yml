@@ -11,7 +11,7 @@ theme:
 # Plugins
 plugins:
   - search
-#  - enumerate-headings
+  - enumerate-headings
   - awesome-pages:
       filename: .pages
       collapse_single_pages: false
